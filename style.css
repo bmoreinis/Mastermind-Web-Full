@@ -92,16 +92,21 @@ button:focus, select:focus {
 
 /* Graphic Mastermind Model CSS */
 
-.m { background-color:magenta; }
-.g { background-color:green; }
-.c { background-color:cyan; }
-.r { background-color:red; }
+.m { background-color:magenta; padding-left:4px;}
+.g { background-color:green; padding-left:4px;}
+.c { background-color:cyan; padding-left:4px;}
+.r { background-color:red; padding-left:4px;}
 .w { 
   background-color:white; 
   border-radius:50%;
-  border:1px solid black; }
-.b { background-color:black;color:white; }
-.y { background-color:yellow; }
+  border:1px solid black; 
+  }
+.b { 
+  background-color:black;
+  color:white; 
+  padding-left:4px;
+  }
+.y { background-color:yellow; padding-left:4px;}
 
 #turns {
 	width:350px;
