@@ -3,7 +3,7 @@ html {
 }
 
 #console{
-	border: 2px solid black;
+    border: 2px solid black;
     background-color: rgb(47, 70, 45);
     padding: 10px;
     border-radius: 25px;
@@ -17,48 +17,49 @@ html {
     font-size: 25px;
     background-color: white;
     padding:10px;
-	margin:20px auto;
+    margin:20px auto;
     width: 87%;
     overflow: auto;
-	text-align:center;
+    text-align:center;
 }
 
 #colors {
-	padding-left:0px;
-	margin-left:-10px;
+    padding-left:0px;
+    margin-left:-10px;
 }
 
 #colors li {
-	list-style:none;
-	display:inline-block;
-	text-indent:none;
+    list-style:none;
+    display:inline-block;
+    text-indent:none;
 }
 
 select {
     width: 40px;
-	height:40px;
+    height:40px;
     font-size: 25px;
     background-color:white;
     padding-top: 0px;
-	margin:0 auto;
-	border-radius:50px;
+    margin:0 auto;
+    border-radius:50px;
+    padding-left: 4px;
 }
 
 select:hover {
-	border:1px solid green;
+    border:1px solid green;
 }
 
 .clicker {
-	color:blue;
-	font-style:underline;
+    color:blue;
+    font-style:underline;
 }
 
 .clicker:hover {
-	color:red;
+    color:red;
 }
 
 .hide {
-	display:none;
+    display:none;
 }
 
 #board.quitted {
@@ -71,14 +72,14 @@ select:hover {
 
 button {
   height:80px;
-	width:80px;
-	margin-left:-20px;
-	border-radius:50%;
-	border:2px solid gray;
+    width:80px;
+    margin-left:-20px;
+    border-radius:50%;
+    border:2px solid gray;
   background: -4px -5px black url("button-red.png") no-repeat;
 }
 button:hover {
-	border:2px solid yellow;
+    border:2px solid yellow;
 }
 
 .fourok {
@@ -86,40 +87,34 @@ button:hover {
 }
 
 button:focus, select:focus {
-	outline:0;
+    outline:0;
 }
 
 
 /* Graphic Mastermind Model CSS */
 
-.m { background-color:magenta; padding-left:4px;}
-.g { background-color:green; padding-left:4px;}
-.c { background-color:cyan; padding-left:4px;}
-.r { background-color:red; padding-left:4px;}
-.w { 
-  background-color:white; 
-  border-radius:50%;
-  border:1px solid black; 
-  }
-.b { 
-  background-color:black;
-  color:white; 
-  padding-left:4px;
-  }
-.y { background-color:yellow; padding-left:4px;}
+.m { background-color:magenta; }
+.g { background-color:green; }
+.c { background-color:cyan; }
+.r { background-color:red;}
+.w { background-color:white;
+     border-color:black;}
+.b { background-color:black;
+  color:white;}
+.y { background-color:yellow;}
 
 #turns {
-	width:350px;
-	margin:20px auto;
-	padding-left:20px;
-	text-align:left;
+    width:350px;
+    margin:20px auto;
+    padding-left:20px;
+    text-align:left;
 }
 
 #turns li {
     list-style:none;
     list-style-type:none;
     list-style-image:none;
-	text-indent:none;
+    text-indent:none;
 }
 
 .turn {
@@ -129,7 +124,7 @@ button:focus, select:focus {
 }
 
 button:active, select:active {
-	border:none;
+    border:none;
 }
 
 .turn li {
